@@ -16,6 +16,10 @@ func main() {
 	log.Println("Job begin3")
 	log.Println("Job begin4")
 
+	log.Println("Job begin5")
+	log.Println("Job begin6")
+	log.Println("Job begin7")
+
 	if err := godotenv.Load(); err != nil {
 		log.Printf("Предупреждение: не удалось загрузить .env файл: %v", err)
 	}

@@ -9,7 +9,6 @@ import (
 
 func main() {
 	log.Println("Job begin")
-	log.Println("Okay")
 
 	if err := godotenv.Load(); err != nil {
 		log.Printf("Предупреждение: не удалось загрузить .env файл: %v", err)
